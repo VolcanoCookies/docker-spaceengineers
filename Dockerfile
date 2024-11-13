@@ -5,8 +5,8 @@ WORKDIR /root
 # ARG only available during build
 # never env DEBIAN_FRONTEND=noninteractive !!
 ARG DEBIAN_FRONTEND=noninteractive
-ARG WINEBRANCH=stable
-ARG WINEVERSION=9.0.0.0~bookworm-1
+ARG WINEBRANCH=staging
+ARG WINEVERSION=9.21
 
 ENV WINEARCH=win64
 ENV WINEDEBUG=-all
